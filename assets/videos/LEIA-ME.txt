@@ -1,0 +1,12 @@
+COLOQUE SEUS VIDEOS MP4 NESTA PASTA.
+
+Exemplos:
+  assets/videos/filme-casamento.mp4
+  assets/videos/storymaker.mp4
+
+Depois abra index.html e localize o atributo data-video-src dos dois players.
+Para videomaker: data-video-src="assets/videos/filme-casamento.mp4"
+Para storymaker: data-video-src="assets/videos/storymaker.mp4"
+
+Os vídeos não estão incluídos no projeto. Se os caminhos estiverem vazios,
+serão mostradas imagens provisórias. Para melhor desempenho, exporte H.264 em MP4.

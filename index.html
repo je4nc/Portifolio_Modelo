@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#FAF8F5" />
+  <meta name="description" content="SRFilms — fotografia, filmes e conteúdo vertical para eventos, festas e casamentos. Momentos reais, histórias que ficam." />
+  <title>SRFilmes — Histórias que ficam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="#inicio" aria-label="SRFilmes início">SR<span>FILMES</span>.</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" id="menuToggle">☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a><a href="#portfolio">Portfólio</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a>
+        <a class="nav-cta" href="#contato">Vamos criar juntos ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-content">
+        <div class="eyebrow">Fotografia · Eventos, festas & casamentos</div>
+        <h1>Momentos que<br><em>ficam para sempre.</em></h1>
+        <p class="hero-copy">Fotografia e stories para celebrar histórias reais — do “sim” no altar à última música da festa.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#portfolio">Explorar trabalhos <span>↘</span></a><a class="btn btn-secondary" href="#contato">Solicitar orçamento <span>↗</span></a></div>
+        <div class="hero-meta"><span>Casamentos</span><span>Festas & eventos</span><span>Storymaker</span></div>
+      </div>
+    </section>
+    <div class="ticker"><div class="wrap ticker-inner"><span>Momentos espontâneos</span><b>✳</b><span>Emoção em cada detalhe</span><b>✳</b><span>Histórias em movimento</span><b>✳</b><span>Memórias para reviver</span></div></div>
+
+    <section class="section" id="sobre"><div class="wrap about-grid">
+      <div class="about-photo reveal"><img loading="lazy" src="/assets/img/noiva 1.JPG" alt="Câmera profissional preparada para uma produção audiovisual"><div class="photo-tag">Por trás de cada imagem, uma intenção.</div></div>
+      <div class="about-copy reveal"><div class="eyebrow">01 / Quem somos</div><h2>Mais do que registrar. É fazer sentir de novo.</h2><p class="lead">A SRFilms transforma celebrações em narrativas visuais cheias de emoção, beleza e personalidade.</p><p>Registramos os grandes momentos e os pequenos detalhes: os olhares, os abraços, os votos, a pista cheia e tudo aquilo que torna cada história única. Fotografia, vídeo e conteúdo vertical com um olhar cinematográfico.</p><p>Este é um texto de apresentação provisório. Antes de publicar, personalize com sua história, experiência e o jeito que você gosta de contar cada celebração.</p><div class="stats"><div class="stat"><strong>01</strong><span>Ideia com propósito</span></div><div class="stat"><strong>02</strong><span>Produção cuidadosa</span></div><div class="stat"><strong>03</strong><span>Entrega estratégica</span></div></div></div>
+    </div></section>
+
+    <section class="section work" id="portfolio"><div class="wrap">
+      <div class="section-head reveal"><div><div class="eyebrow">02 / Histórias em destaque</div><h2>Histórias reais.<br>Emoções que ficam.</h2></div><p class="section-intro">Uma seleção de estilos para casamentos, festas e eventos.</p></div>
+      <div class="filters reveal" role="group" aria-label="Filtrar projetos"><button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="foto">Fotografia</button><button class="filter" data-filter="social">Stories & reels</button></div>
+      <div class="project-grid" style="margin-top:18px">
+        <article class="project reveal" data-category="foto"><img loading="lazy" src="/assets/img/noiva 3.JPG" alt="Detalhe de celebração de casamento — imagem demonstrativa"><div class="project-info"><small>Fotografia · Casamento</small><h3>Os detalhes contam tudo.</h3><p>Registro dos detalhes, decoração e momentos que fazem a celebração ser única.</p></div></article>
+        <article class="project reveal" data-category="foto"><img loading="lazy" src="/assets/img/votos.JPG" alt="Detalhe de celebração de casamento — imagem demonstrativa"><div class="project-info"><small>Fotografia · Casamento</small><h3>Os detalhes contam tudo.</h3><p>Registro dos detalhes, decoração e momentos que fazem a celebração ser única.</p></div></article>
+         <article class="project reveal" data-category="foto"><img loading="lazy" src="/assets/img/noiva 5.JPG" alt="Detalhe de celebração de casamento — imagem demonstrativa"><div class="project-info"><small>Fotografia · Casamento</small><h3>Os detalhes contam tudo.</h3><p>Registro dos detalhes, decoração e momentos que fazem a celebração ser única.</p></div></article>
+        <!-- STORYMAKER: vídeos verticais (9:16) funcionam melhor aqui.
+             Exemplo: data-video-src="assets/videos/storymaker.mp4" -->
+        <article class="project project--video project--story reveal" data-category="social" id="projeto-storymaker">
+          <div class="project-media project-media--vertical">
+            <img class="project-cover" loading="lazy" src="assets/img/votos.JPG" alt="Festa — imagem provisória para capa do storymaker">
+            <div class="video-placeholder" aria-hidden="true"><span class="play-symbol">▶</span><span>Stories & reels</span><small>Em breve</small></div>
+            <video controls playsinline preload="metadata" data-video-src="/assets/videos/apresentacao.mp4" aria-label="Reproduzir vídeo vertical de storymaker">
+              Seu navegador não suporta reprodução de vídeo HTML5.
+            </video>
+          </div>
+          <div class="project-info"><small>Storymaker · Festa</small><h3>A energia de cada instante.</h3><p>Stories e reels verticais para compartilhar a emoção enquanto ela acontece.</p></div>
+        </article>
+        <article class="project project--video project--story reveal" data-category="social" id="projeto-storymaker">
+          <div class="project-media project-media--vertical">
+            <img class="project-cover" loading="lazy" src="assets/img/votos.JPG" alt="Festa — imagem provisória para capa do storymaker">
+            <div class="video-placeholder" aria-hidden="true"><span class="play-symbol">▶</span><span>Stories & reels</span><small>Em breve</small></div>
+            <video controls playsinline preload="metadata" data-video-src="/assets/videos/video 2.mp4" aria-label="Reproduzir vídeo vertical de storymaker">
+              Seu navegador não suporta reprodução de vídeo HTML5.
+            </video>
+          </div>
+          <div class="project-info"><small>Storymaker · Festa</small><h3>A energia de cada instante.</h3><p>Stories e reels verticais para compartilhar a emoção enquanto ela acontece.</p></div>
+        </article>
+        <article class="project project--video project--story reveal" data-category="social" id="projeto-storymaker">
+          <div class="project-media project-media--vertical">
+            <img class="project-cover" loading="lazy" src="assets/img/votos.JPG" alt="Festa — imagem provisória para capa do storymaker">
+            <div class="video-placeholder" aria-hidden="true"><span class="play-symbol">▶</span><span>Stories & reels</span><small>Em breve</small></div>
+            <video controls playsinline preload="metadata" data-video-src="/assets/videos/video 3.mp4" aria-label="Reproduzir vídeo vertical de storymaker">
+              Seu navegador não suporta reprodução de vídeo HTML5.
+            </video>
+          </div>
+          <div class="project-info"><small>Storymaker · Festa</small><h3>A energia de cada instante.</h3><p>Stories e reels verticais para compartilhar a emoção enquanto ela acontece.</p></div>
+        </article>
+      </div>
+    </div></section>
+
+    <section class="section" id="servicos"><div class="wrap">
+      <div class="section-head reveal"><div><div class="eyebrow">03 / O que fazemos</div><h2>Sua celebração,<br>contada em cada detalhe.</h2></div><p class="section-intro">Cobertura com sensibilidade e intenção, respeitando o ritmo do evento e entregando lembranças que você vai querer rever e compartilhar.</p></div>
+      <div class="services-grid">
+        <article class="service reveal"><div class="service-num">01 / FOTOGRAFIA</div><h3>Imagens que valorizam.</h3><p>Fotografia de casamentos, aniversários, festas e eventos, com atenção aos retratos, detalhes e momentos espontâneos.</p><a href="#contato" class="arrow">Conversar sobre fotografia ↗</a></article>
+        <article class="service reveal"><div class="service-num">02 / STORYMAKER</div><h3>Presença no agora.</h3><p>Stories e reels verticais para compartilhar bastidores, entradas, brindes, pista de dança e os melhores momentos quase em tempo real.</p><a href="#projeto-storymaker" class="arrow">Ver stories & reels ↗</a><br><a href="#contato" class="service-contact-link">Solicitar orçamento ↗</a></article>
+      </div>
+    </div></section>
+
+    <section class="section process"><div class="wrap"><div class="eyebrow">04 / Como acontece</div><h2>Um processo simples.<br>Uma entrega com intenção.</h2><p class="section-intro">Do primeiro contato à entrega, cada etapa é pensada para que você aproveite o momento enquanto cuidamos dos registros.</p><div class="steps">
+      <div class="step"><small>ETAPA 01</small><h3>Alinhamento</h3><p>Conversamos sobre a data, o local, o estilo da celebração e o que é mais importante para vocês.</p></div>
+      <div class="step"><small>ETAPA 02</small><h3>Conceito</h3><p>Alinhamos a cobertura, os momentos-chave e a linguagem visual desejada.</p></div>
+      <div class="step"><small>ETAPA 03</small><h3>Produção</h3><p>Registramos a celebração com discrição, criatividade e atenção às emoções.</p></div>
+      <div class="step"><small>ETAPA 04</small><h3>Entrega</h3><p>Selecionamos e editamos fotos, filmes e conteúdos conforme o pacote combinado.</p></div>
+    </div></div></section>
+
+    <section class="section contact" id="contato"><div class="wrap contact-grid">
+      <div class="reveal"><div class="eyebrow">05 / Vamos conversar</div><h2>Vamos contar a sua história?</h2><p class="contact-copy">Conte a data, o local e o tipo de evento que está planejando. Vamos conversar sobre uma cobertura que preserve a emoção e os detalhes desse dia especial.</p><a class="btn btn-primary" href="https://wa.me/556199999999" target="_blank" rel="noopener">Falar pelo WhatsApp ↗</a></div>
+      <aside class="contact-card reveal"><h3>Entre em contato</h3><p>Peça informações sobre disponibilidade, pacotes e cobertura.</p><a class="contact-link" href="https://wa.me/556199999999" target="_blank" rel="noopener"><span>WhatsApp</span><span>Iniciar conversa ↗</span></a><a class="contact-link" href="#contato" id="instagramLink"><span>Instagram</span><span>Adicionar perfil ↗</span></a></aside>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span><strong>SRFILMS.</strong> Vídeos que contam histórias.</span><span>© <span id="year"></span> SRFilms · Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
